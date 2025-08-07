@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@trpc/client": "^11.4.4",
+    "@trpc/server": "^11.4.4",
+    "kysely": "^0.28.4",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "vitest": "^3.2.4"
+  }
+}
