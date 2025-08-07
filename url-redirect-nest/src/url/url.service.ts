@@ -14,4 +14,9 @@ export class UrlService {
     const url = await this.urlRepository.get(slug);
     return url;
   }
+
+  async getAll() {
+    const urls = await this.urlRepository.getAll();
+    return urls;
+  }
 }
