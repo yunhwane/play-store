@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 import { DrizzleModule } from '@sixaphone/nestjs-drizzle';
 import { DBS } from './database/constants';
 import { schema } from './database/schema';
+import { UserService } from './user/user.service';
 
 @Module({
   imports: [
@@ -17,6 +18,6 @@ import { schema } from './database/schema';
     }),
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, UserService],
 })
 export class AppModule {}
