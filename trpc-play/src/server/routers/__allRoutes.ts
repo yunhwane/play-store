@@ -7,4 +7,3 @@ export const allRoutes = router({
 })
 
 export type AppRouter = typeof allRoutes;
-
