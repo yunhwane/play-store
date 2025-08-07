@@ -16,4 +16,10 @@ export class UrlController {
     const url = await this.urlService.get(slug);
     return url;
   }
+
+  @Get()
+  async getAll() {
+    const urls = await this.urlService.getAll();
+    return urls;
+  }
 }
